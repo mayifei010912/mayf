@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/fixed_g_axi_reader_queued.v" into library work
+INFO: [VRFC 10-311] analyzing module fixed_g_axi_reader_queued
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/sim/tb_reader_queued.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_reader_queued

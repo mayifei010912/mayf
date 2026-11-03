@@ -1,0 +1,11 @@
+{
+  "active_bit": "F:\\fpga\\ps_speed3\\vivado\\board_hybrid\\board_speed3.bit",
+  "sha256": "2473c7d7d7d82d443a3cc5d879bd0518542f63466542ada63c8e15cca7aaeb4d",
+  "iteration_cap": 1100,
+  "baseline_speed2_seconds": 1286.9104674709997,
+  "candidate_seconds": 682.814892334,
+  "speedup_vs_speed2": 1.8847135320556327,
+  "original_29min_seconds": 1742.2141282679986,
+  "all_3132_samples_exact": true,
+  "app_workflow_unchanged": true
+}

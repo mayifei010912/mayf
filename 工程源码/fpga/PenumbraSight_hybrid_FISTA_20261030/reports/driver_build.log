@@ -1,0 +1,159 @@
+aarch64-none-linux-gnu-gcc (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 9.2.1 20191025
+make: 进入目录“/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx”
+make[1]: 进入目录“/home/ubuntu/penumbrasight_hybrid_20261031/build-atk”
+  GEN     Makefile
+scripts/kconfig/conf  --olddefconfig Kconfig
+#
+# configuration written to .config
+#
+make[1]: 离开目录“/home/ubuntu/penumbrasight_hybrid_20261031/build-atk”
+make: 离开目录“/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx”
+CONFIG_DIFFERENCES [{'option': 'CONFIG_GCC_VERSION', 'board': '90200', 'build': '90201'}, {'option': 'CONFIG_VIDEO_IMX415', 'board': 'y', 'build': None}, {'option': 'CONFIG_VIDEO_OS05A10', 'board': 'y', 'build': None}]
+make: 进入目录“/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx”
+make[1]: 进入目录“/home/ubuntu/penumbrasight_hybrid_20261031/build-atk”
+  GEN     Makefile
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/confdata.o
+  HOSTCC  scripts/kconfig/expr.o
+  HOSTCC  scripts/kconfig/lexer.lex.o
+  HOSTCC  scripts/kconfig/parser.tab.o
+  HOSTCC  scripts/kconfig/preprocess.o
+  HOSTCC  scripts/kconfig/symbol.o
+  HOSTLD  scripts/kconfig/conf
+scripts/kconfig/conf  --syncconfig Kconfig
+  GEN     Makefile
+  HOSTCC  scripts/dtc/dtc.o
+  HOSTCC  scripts/dtc/flattree.o
+  HOSTCC  scripts/dtc/fstree.o
+  HOSTCC  scripts/dtc/data.o
+  HOSTCC  scripts/dtc/livetree.o
+  HOSTCC  scripts/dtc/treesource.o
+  HOSTCC  scripts/dtc/srcpos.o
+  HOSTCC  scripts/dtc/checks.o
+  HOSTCC  scripts/dtc/util.o
+  HOSTCC  scripts/dtc/dtc-lexer.lex.o
+  HOSTCC  scripts/dtc/dtc-parser.tab.o
+  HOSTLD  scripts/dtc/dtc
+  HOSTCC  scripts/kallsyms
+  HOSTCC  scripts/pnmtologo
+  HOSTCC  scripts/conmakehash
+  HOSTCC  scripts/sortextable
+  HOSTCC  scripts/asn1_compiler
+  HOSTCC  scripts/extract-cert
+/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c: In function ‘display_openssl_errors’:
+/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:46:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   46 |         while ((e = ERR_get_error_line(&file, &line))) {
+      |         ^~~~~
+In file included from /home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:23:
+/usr/include/openssl/err.h:411:15: note: declared here
+  411 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c: In function ‘drain_openssl_errors’:
+/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:59:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   59 |         while (ERR_get_error_line(&file, &line)) {}
+      |         ^~~~~
+In file included from /home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:23:
+/usr/include/openssl/err.h:411:15: note: declared here
+  411 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c: In function ‘main’:
+/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:124:17: warning: ‘ENGINE_load_builtin_engines’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  124 |                 ENGINE_load_builtin_engines();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:358:28: note: declared here
+  358 | OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:126:17: warning: ‘ENGINE_by_id’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  126 |                 e = ENGINE_by_id("pkcs11");
+      |                 ^
+In file included from /home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:336:31: note: declared here
+  336 | OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+      |                               ^~~~~~~~~~~~
+/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:128:17: warning: ‘ENGINE_init’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  128 |                 if (ENGINE_init(e))
+      |                 ^~
+In file included from /home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:620:27: note: declared here
+  620 | OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+      |                           ^~~~~~~~~~~
+/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:133:25: warning: ‘ENGINE_ctrl_cmd_string’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  133 |                         ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0), "Set PKCS#11 PIN");
+      |                         ^~~
+In file included from /home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:479:5: note: declared here
+  479 | int ENGINE_ctrl_cmd_string(ENGINE *e, const char *cmd_name, const char *arg,
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:134:17: warning: ‘ENGINE_ctrl_cmd’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  134 |                 ENGINE_ctrl_cmd(e, "LOAD_CERT_CTRL", 0, &parms, NULL, 1);
+      |                 ^~~~~~~~~~~~~~~
+In file included from /home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:450:27: note: declared here
+  450 | OSSL_DEPRECATEDIN_3_0 int ENGINE_ctrl_cmd(ENGINE *e, const char *cmd_name,
+      |                           ^~~~~~~~~~~~~~~
+  HOSTCC  scripts/mod/mk_elfconfig
+  CC      scripts/mod/devicetable-offsets.s
+  CC      scripts/mod/empty.o
+  UPD     scripts/mod/devicetable-offsets.h
+  MKELF   scripts/mod/elfconfig.h
+  HOSTCC  scripts/mod/modpost.o
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTCC  scripts/mod/sumversion.o
+  HOSTLD  scripts/mod/modpost
+  CC      kernel/bounds.s
+  CALL    /home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/atomic/check-atomics.sh
+  UPD     include/generated/timeconst.h
+  UPD     include/generated/bounds.h
+  CC      arch/arm64/kernel/asm-offsets.s
+  UPD     include/generated/asm-offsets.h
+  CALL    /home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx/scripts/checksyscalls.sh
+  LDS     arch/arm64/kernel/vdso/vdso.lds
+  AS      arch/arm64/kernel/vdso/note.o
+  AS      arch/arm64/kernel/vdso/sigreturn.o
+  CC      arch/arm64/kernel/vdso/vgettimeofday.o
+  LD      arch/arm64/kernel/vdso/vdso.so.dbg
+  VDSOSYM include/generated/vdso-offsets.h
+make[1]: 离开目录“/home/ubuntu/penumbrasight_hybrid_20261031/build-atk”
+make: 离开目录“/home/ubuntu/penumbrasight_hybrid_20261031/atk-zup-linux-xlnx”
+make: 进入目录“/home/ubuntu/penumbrasight_hybrid_20261031/build-atk”
+
+  WARNING: Symbol version dump ./Module.symvers
+           is missing; modules will have no dependencies and modversions.
+
+  CC [M]  /home/ubuntu/penumbrasight_hybrid_20261031/driver/penumbra_gram.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC [M]  /home/ubuntu/penumbrasight_hybrid_20261031/driver/penumbra_gram.mod.o
+  LD [M]  /home/ubuntu/penumbrasight_hybrid_20261031/driver/penumbra_gram.ko
+make: 离开目录“/home/ubuntu/penumbrasight_hybrid_20261031/build-atk”
+filename:       /home/ubuntu/penumbrasight_hybrid_20261031/driver/penumbra_gram.ko
+description:    PenumbraSight fixed-G coherent DMA buffer; static FPGA reproduction
+license:        GPL
+depends:        
+name:           penumbra_gram
+vermagic:       5.4.0 SMP mod_unload aarch64
+parm:           buffer_bytes:ulong
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              REL (Relocatable file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          0 (bytes into file)
+  Start of section headers:          269328 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           0 (bytes)
+  Number of program headers:         0
+  Size of section headers:           64 (bytes)
+  Number of section headers:         45
+  Section header string table index: 44
+e3a6a9c7b088dc1d8f027165e3a71985c5da22b796c9d136c2b6eac2935dedf1  /home/ubuntu/penumbrasight_hybrid_20261031/driver/penumbra_gram.ko
+DRIVER_BUILD_COMPLETE_NOT_YET_LOADED

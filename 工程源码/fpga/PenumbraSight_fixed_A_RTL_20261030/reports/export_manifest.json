@@ -1,0 +1,92 @@
+{
+  "sourceMatrix": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\output\\A_measured.mat",
+  "sourceSHA256": "724e0eb8eb3734d6d22868354cfe4d17117eb1f318edb0fe526dd172f2cface7",
+  "matrixRows": 16384,
+  "matrixCols": 1044,
+  "matrixElements": 1.7104896E+7,
+  "coefficientFormat": "signed int32, 24 fractional bits; value = integer / 2^24",
+  "byteOrder": "little endian",
+  "storageOrder": "row-major: address = 4*(wall_row*1044 + source_col)",
+  "wallOrder": "Author image(:): rows z decreasing, columns x increasing; MATLAB column-major",
+  "sourceOrder": "Author: world x decreasing by output column; world z decreasing by row; MATLAB column-major",
+  "authorDifference": "B(i,:)=A(i,:)-A(i+1,:) for i<16384; B(end,:)=A(end,:)",
+  "noWallPointReduction": true,
+  "noLowRankCompression": true,
+  "sourceModelKey": "0a654435048d520f9265bfa4ccfc78ca5d1ed19b5634089bf4b7de99a7138dc6",
+  "geometry": {
+    "measurementsConfirmed": true,
+    "screenWallDistanceCm": 56,
+    "screenSizeCm": [
+      24,
+      11.6
+    ],
+    "screenCenterXZCm": [
+      30,
+      8
+    ],
+    "parallelPlanesConfirmed": true,
+    "occluderSizeCm": [
+      6,
+      6
+    ],
+    "occluderCenterXZCm": [
+      30,
+      19
+    ],
+    "occluderWallFacingDistanceCm": 19,
+    "occluderThicknessCm": 0.5,
+    "occluderPlane": "wall_facing_surface",
+    "includeSupport": true,
+    "supportCenterXCm": 30,
+    "supportDiameterCm": 0.5,
+    "supportBottomTopZCm": [
+      0,
+      16
+    ]
+  },
+  "wallRegion": {
+    "cameraCornersXZCm": [
+      [
+        3,
+        42.5
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        51,
+        34
+      ],
+      [
+        50,
+        16.5
+      ]
+    ],
+    "rectangleCm": [
+      15,
+      16.5,
+      30,
+      17.5
+    ],
+    "gridSize": 128
+  },
+  "bytesPerMatrix": 6.8419584E+7,
+  "quantizationMaxAbsA": 2.9802322387695312E-8,
+  "quantizationRmsA": 1.5829335775354366E-8,
+  "quantizationMaxAbsDA": 2.9802322387695312E-8,
+  "quantizationRmsDA": 1.5856576460626547E-8,
+  "testSourceResult": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\output\\single_RAW_direct_20261030_163207_344\\result.mat",
+  "testVectorDescription": "Actual saved red-channel reconstruction and differenced wall measurement; for MAC arithmetic tests, not new reconstruction",
+  "testXFractionalBits": 20,
+  "testDyFractionalBits": 8,
+  "forwardQuantizationMaxAbs": 1.16828118734702E-7,
+  "adjointQuantizationMaxAbs": 0.000197491142898798,
+  "paperSources": {
+    "filesChecked": 25,
+    "originalCopiesByteIdentical": true,
+    "reconstructionFunction": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\paper_original\\Functions\\reconstruct_tv_it_cbg.m"
+  },
+  "boardProgrammingPerformed": false,
+  "reconstructionLoopVerified": false
+}

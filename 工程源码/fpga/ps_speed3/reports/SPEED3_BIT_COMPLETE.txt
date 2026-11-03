@@ -1,0 +1,1 @@
+Full Gx/TV simulation passed; whole-board route/timing/DRC passed; physical validation still required.

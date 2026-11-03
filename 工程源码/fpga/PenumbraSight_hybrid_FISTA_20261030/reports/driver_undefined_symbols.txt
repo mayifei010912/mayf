@@ -1,0 +1,14 @@
+                 U __arch_copy_to_user
+                 U dma_alloc_attrs
+                 U dma_free_attrs
+                 U dma_mmap_attrs
+                 U dma_set_coherent_mask
+                 U dma_set_mask
+                 U memset
+                 U misc_deregister
+                 U misc_register
+                 U no_llseek
+                 U nonseekable_open
+                 U param_ops_ulong
+                 U printk
+                 U __stack_chk_fail

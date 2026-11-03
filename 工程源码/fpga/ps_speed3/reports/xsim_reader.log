@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# xsim v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Nov  1 01:52:09 2026
+# Process ID: 46948
+# Current directory: F:/fpga/ps_speed3/build/reader_test
+# Command line: xsim.exe -log F:\fpga\ps_speed3\reports\xsim_reader.log -mode tcl -source {xsim.dir/queued/xsim_script.tcl}
+# Log file: F:/fpga/ps_speed3/reports/xsim_reader.log
+# Journal file: F:/fpga/ps_speed3/build/reader_test\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/queued/xsim_script.tcl
+# xsim {queued} -autoloadwcfg -runall
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+run -all
+PASS QUEUED_READER: 8 credits, delayed memory, 4KB, tails, output stalls, RRESP/RLAST fault drain, reset
+$finish called at time : 41746 ns : File "F:/fpga/ps_speed3/sim/tb_reader_queued.sv" Line 80
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 01:52:13 2026...

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# xsim v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Nov  1 02:10:33 2026
+# Process ID: 49376
+# Current directory: F:/fpga/ps_speed3/build/sim_full_queued_queued
+# Command line: xsim.exe -log F:\fpga\ps_speed3\reports\xsim_full_queued_queued.log -mode tcl -source {xsim.dir/speed_full_queued_queued/xsim_script.tcl}
+# Log file: F:/fpga/ps_speed3/reports/xsim_full_queued_queued.log
+# Journal file: F:/fpga/ps_speed3/build/sim_full_queued_queued\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/speed_full_queued_queued/xsim_script.tcl
+# xsim {speed_full_queued_queued} -autoloadwcfg -runall
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+run -all
+GXTIMING N=1044 cycles=1198973
+QUEUE_HIGH_WATER=8
+[PASS GRAM64 AXIL] N=1044 coefficients=1089936
+[PASS TV32 RESUME AXIL] H=29 W=36 iterations=4
+[PASS HYBRID AXIL] N=1044 cycles=2483634: full-width Gx, four exact TV rounds, AW/W order, stalls, invalid commands
+$finish called at time : 24836340 ns : File "F:/fpga/ps_speed3/sim/tb_hybrid_queued.sv" Line 133
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 02:10:40 2026...

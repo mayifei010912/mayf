@@ -1,0 +1,30 @@
+{
+  "sourceA": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\output\\A_measured.mat",
+  "sourceSHA256": "724e0eb8eb3734d6d22868354cfe4d17117eb1f318edb0fe526dd172f2cface7",
+  "sourceResult": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\output\\single_RAW_direct_20261030_163207_344\\result.mat",
+  "scope": "Exact algebra G=B^T*B and bias=B^T*dy; CPU initialization, no target image",
+  "rows": 29,
+  "cols": 36,
+  "pixels": 1044,
+  "GFractionBits": 32,
+  "biasFractionBits": 32,
+  "xFractionBits": 20,
+  "L": 4.4543798478374451E+7,
+  "safeStepQ48": 6.018153E+6,
+  "safeStep": 2.1380774484214271E-8,
+  "thetaQ32": 91830,
+  "tvLambda": [
+    1000,
+    1000,
+    1000
+  ],
+  "cpuOuterMax": 1100,
+  "cpuOuterTolerance": 2.4E-6,
+  "coefficientMaxAbsError": 1.1641532182693481E-10,
+  "initialization": "Original unregularized normal-equation left-inverse applied to measured dy; not warm-started from final reconstruction",
+  "paperSources": {
+    "filesChecked": 25,
+    "originalCopiesByteIdentical": true,
+    "reconstructionFunction": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\paper_original\\Functions\\reconstruct_tv_it_cbg.m"
+  }
+}

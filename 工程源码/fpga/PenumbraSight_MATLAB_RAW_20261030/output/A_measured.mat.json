@@ -1,0 +1,206 @@
+{
+  "sourceRowsCols": [
+    29,
+    36
+  ],
+  "wallGridSize": 128,
+  "wallRectangleM": [
+    0.15,
+    0.165,
+    0.3,
+    0.175
+  ],
+  "authorScreenPlaneY": 0,
+  "authorWallPlaneY": 0.56,
+  "occluderPlaneY": 0.37000000000000005,
+  "occluderApproximation": "Author zero-thickness polygon; support is a coplanar rectangle, not a cylinder",
+  "recordedOccluderThicknessCm": 0.5,
+  "sourceColumnOrder": "Author: world x decreasing by output column; world z decreasing by row; MATLAB column-major",
+  "wallRowOrder": "Author image(:): rows z decreasing, columns x increasing; MATLAB column-major",
+  "sourceGridConvention": "Measured rectangle divided into contiguous cells; Mon_xdiscr/Mon_zdiscr are upper-right boundaries used by unchanged simulate_A",
+  "transportFunction": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\paper_original\\Functions\\simulate_A.m",
+  "backend": "original_gpu",
+  "elapsedSeconds": 3.7088679,
+  "modelKey": "0a654435048d520f9265bfa4ccfc78ca5d1ed19b5634089bf4b7de99a7138dc6",
+  "config": {
+    "paths": {
+      "root": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030",
+      "matrixFile": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\output\\A_measured.mat"
+    },
+    "raw": {
+      "measurementPath": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\data\\measurement",
+      "darkBeforePath": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\data\\dark_before",
+      "darkAfterPath": "",
+      "whitePath": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\data\\white",
+      "filePattern": "*.raw",
+      "maxFrames": null,
+      "width": 5472,
+      "height": 3648,
+      "pixelFormat": "BayerGB8",
+      "headerBytes": 0,
+      "rowPaddingBytes": 0,
+      "blockSizeRaw": 2,
+      "formatConfirmed": false
+    },
+    "scene": {
+      "measurementsConfirmed": true,
+      "screenWallDistanceCm": 56,
+      "screenSizeCm": [
+        24,
+        11.6
+      ],
+      "screenCenterXZCm": [
+        30,
+        8
+      ],
+      "parallelPlanesConfirmed": true,
+      "occluderSizeCm": [
+        6,
+        6
+      ],
+      "occluderCenterXZCm": [
+        30,
+        19
+      ],
+      "occluderWallFacingDistanceCm": 19,
+      "occluderThicknessCm": 0.5,
+      "occluderPlane": "wall_facing_surface",
+      "includeSupport": true,
+      "supportCenterXCm": 30,
+      "supportDiameterCm": 0.5,
+      "supportBottomTopZCm": [
+        0,
+        16
+      ]
+    },
+    "wall": {
+      "cameraCornersXZCm": [
+        [
+          3,
+          42.5
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          51,
+          34
+        ],
+        [
+          50,
+          16.5
+        ]
+      ],
+      "rectangleCm": [
+        15,
+        16.5,
+        30,
+        17.5
+      ],
+      "gridSize": 128
+    },
+    "source": {
+      "gridRowsCols": [
+        29,
+        36
+      ]
+    },
+    "transport": {
+      "subsamplesPerAxis": 4,
+      "viewAngleCorrection": 1,
+      "backend": "original_gpu"
+    },
+    "mapping": {
+      "rawUV": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3648
+        ],
+        [
+          5472,
+          1
+        ],
+        [
+          5472,
+          3648
+        ]
+      ],
+      "wallXZCm": [
+        [
+          3,
+          42.5
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          51,
+          34
+        ],
+        [
+          50,
+          16.5
+        ]
+      ],
+      "confirmed": false,
+      "checkRawUV": [],
+      "checkWallXZCm": [],
+      "maxIndependentErrorCm": 0.5
+    },
+    "capture": {
+      "darkBeforeTime": null,
+      "darkAfterTime": null,
+      "measurementTime": null,
+      "whiteTime": null,
+      "fallbackMeasurementAlpha": 0.5,
+      "fallbackWhiteAlpha": 0.5,
+      "exposureUs": null,
+      "gainDb": null
+    },
+    "reconstruction": {
+      "channelScaleMode": "white_scalar_fit",
+      "manualChannelScale": [
+        null,
+        null,
+        null
+      ],
+      "tvReg": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "tikReg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "quality": {
+      "maxWhiteRelativeError": 0.15,
+      "allowUnvalidatedModel": false
+    },
+    "display": {
+      "previewGain": 6,
+      "flipHorizontal": false
+    },
+    "output": {
+      "allowMatrixOverwrite": false,
+      "showFigures": true
+    }
+  },
+  "paperSources": {
+    "filesChecked": 25,
+    "originalCopiesByteIdentical": true,
+    "reconstructionFunction": "F:\\fpga\\PenumbraSight_MATLAB_RAW_20261030\\paper_original\\Functions\\reconstruct_tv_it_cbg.m"
+  },
+  "realImageRecoveryValidated": false,
+  "rawInputUsed": false,
+  "transportFileSHA256": "ebb79b154044b72a93036af8c8b102f7093e13eca08c24ccf3e6595d6f612de6",
+  "simulateBlockSHA256": "4b3ce8d0ab5505ad2f24063755ac98d634fcc5e626675eb3ba2bd2ee0ff804d2"
+}

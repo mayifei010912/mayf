@@ -1,0 +1,127 @@
+[
+  {
+    "relative_path": "paper_original/fig4_column_c.m",
+    "sha256": "53dd034b8365b72cea4cbaca83ae4057b67b4334fe3f073580f03484343d6ed3",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/fig4_column_c.m"
+  },
+  {
+    "relative_path": "paper_original/fig4_column_d.m",
+    "sha256": "8757927f932aea6d12ca4d2f4732563f50f5d065999e47152e6dc8520ef0c475",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/fig4_column_d.m"
+  },
+  {
+    "relative_path": "paper_original/fig4_column_e.m",
+    "sha256": "3f491b310ddeaf13cadcc442ab35b19fca33630e7d9a09ff82f15ff9f53de8f9",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/fig4_column_e.m"
+  },
+  {
+    "relative_path": "paper_original/fig_S14.m",
+    "sha256": "f9de9535030ff623875804f9faa44b02e78d192cdbe359ab90bc7a1bb46a6b96",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/fig_S14.m"
+  },
+  {
+    "relative_path": "paper_original/fig_S15.m",
+    "sha256": "42abe991e0d4976d8024653ef2510abed81462ee5a051fea9fdf6a4b916a05e5",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/fig_S15.m"
+  },
+  {
+    "relative_path": "paper_original/fig_S16.m",
+    "sha256": "123812961d8962f0c5782c89d32e9227474ca09f7c08058f08ba5784624ec4a9",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/fig_S16.m"
+  },
+  {
+    "relative_path": "paper_original/fig_S1_S2.m",
+    "sha256": "8ba3a67d8a3930a00857a21c3db1fbf82be2ba42908bcaec677c8a9ed501fed3",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/fig_S1_S2.m"
+  },
+  {
+    "relative_path": "paper_original/fig_S9.m",
+    "sha256": "8d7ee897772fa6c9755519dc6f4b6e355b2dd2664a0aec77c095b6778ad586aa",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/fig_S9.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/load_experiment_config_data_localization.m",
+    "sha256": "52fe390c45ee5622e7462f4bb3ee6a0845ce5a86331f23fc119942927ceede2e",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/load_experiment_config_data_localization.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/load_experiment_config_data_reconstruction.m",
+    "sha256": "41275294f9c48b29b2edfc64e8c38eef7fd6dcdb14aa9e671f2a79087be042b1",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/load_experiment_config_data_reconstruction.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/load_image1.m",
+    "sha256": "53d27204bee5f3b5065ab58337b4c03edd5a145bce4ae812e830cb40aaf5a1bd",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/load_image1.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/occluderposgridsearch.m",
+    "sha256": "2b6eb32bfc8ae870ffa74c130043bc2ad5aec60d8dc4ab4fd3f809082a004a23",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/occluderposgridsearch.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/pad_translate.m",
+    "sha256": "5a21aee66925a05d0176defabf5a893ee0d069d0396d2ed84c8a6cb04d82b8db",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/pad_translate.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/ray_plane_intersect_y.m",
+    "sha256": "74484a13fba534491bd11272fb54a4f75da6d4dc74d18f567fa80c7211e1ad3e",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/ray_plane_intersect_y.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/reconstruct_tv.m",
+    "sha256": "2b6d12eecceea7c7552ac0a5df5001f95cf2d3712f1a105ae4676d5eacaacf75",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/reconstruct_tv.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/reconstruct_tv_it_cbg.m",
+    "sha256": "3b337b6566e5030a59b40ce10673d1bbd52e8af0327a6c2db63e5ce7111bf019",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/reconstruct_tv_it_cbg.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/simulate_A.m",
+    "sha256": "ebb79b154044b72a93036af8c8b102f7093e13eca08c24ccf3e6595d6f612de6",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/simulate_A.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/simulate_block.m",
+    "sha256": "4b3ce8d0ab5505ad2f24063755ac98d634fcc5e626675eb3ba2bd2ee0ff804d2",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/simulate_block.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/simulate_occluder.m",
+    "sha256": "127b46a84e8eb540f20628b30c6842d9c2978a5ec6154f4fbb4612fe03608d2f",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/simulate_occluder.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/SimulateA_OccluderEstimation.m",
+    "sha256": "8fe0d18dd4d05ae4d6e83ba4e1a902451df2ac6861a695d3a9396d0cd0013b92",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/SimulateA_OccluderEstimation.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/SimulateForwardModelPerBlock.m",
+    "sha256": "e78caf366624e62a4b85e98b55382e2314adaa2d1da854e46805b4fccfafe9e5",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/SimulateForwardModelPerBlock.m"
+  },
+  {
+    "relative_path": "paper_original/Functions/stack_combine.m",
+    "sha256": "5ec3a0bb933591505be468b3b857b84c814a1eef038c9ce54edd3d6149f54f0a",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/Functions/stack_combine.m"
+  },
+  {
+    "relative_path": "paper_original/README.txt",
+    "sha256": "bc12186700506272aad13fccf5223a1063f8ffb0057aa27321f50692157fdf8d",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/README.txt"
+  },
+  {
+    "relative_path": "paper_original/SOURCE_MANIFEST.json",
+    "sha256": "92395050ce18eb614adf6ae1adb3aeb37e4e27b349ea64823db601325af7a392",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/SOURCE_MANIFEST.json"
+  },
+  {
+    "relative_path": "paper_original/table_S1.m",
+    "sha256": "abf822d1bb026df757291d52b8dc64619169b2b1864fb8dce81afcf373236bf2",
+    "copied_from": "F:/fpga/PenumbraSight_team_20261028/04_matlab_and_test/paper_original/table_S1.m"
+  }
+]

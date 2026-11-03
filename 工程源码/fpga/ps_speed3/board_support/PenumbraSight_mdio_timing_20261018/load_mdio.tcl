@@ -1,0 +1,5 @@
+set task_dir F:/fpga/PenumbraSight_hybrid_FISTA_20261030/board_support/PenumbraSight_mdio_timing_20261018
+set_param general.maxThreads 2
+open_checkpoint F:/fpga/PenumbraSight_hybrid_FISTA_20261030/board_support/PenumbraSight_interface_closure_20261017/vendor_rgmii_verified_routed.dcp
+source [file join $task_dir mdio_edge_timing.tcl]
+puts {INTERACTIVE MDIO DESIGN READY}

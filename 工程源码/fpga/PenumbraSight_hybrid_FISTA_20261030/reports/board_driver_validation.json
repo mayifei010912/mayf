@@ -1,0 +1,7 @@
+{
+  "scope": "physical driver allocation only; no FPGA kernel access",
+  "driver_sha256": "13a403ddecd24d0e96af3bde8b7eda61c5f5e7894b4d0a07f9e2d0bf3e7ca0ab",
+  "dma_address": "0x6fd00000",
+  "bytes": 16777216,
+  "readback_pass": true
+}

@@ -1,0 +1,15 @@
+
+****** xsim v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/queued/xsim_script.tcl
+# xsim {queued} -autoloadwcfg -runall
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+run -all
+PASS QUEUED_READER: 8 credits, delayed memory, 4KB, tails, output stalls, RRESP/RLAST fault drain, reset
+$finish called at time : 41746 ns : File "F:/fpga/ps_speed3/sim/tb_reader_queued.sv" Line 80
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 01:52:13 2026...

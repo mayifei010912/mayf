@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# xsim v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Nov  1 01:56:37 2026
+# Process ID: 44996
+# Current directory: F:/fpga/ps_speed3/build/sim_full
+# Command line: xsim.exe -log F:\fpga\ps_speed3\reports\xsim_full.log -mode tcl -source {xsim.dir/speed_full/xsim_script.tcl}
+# Log file: F:/fpga/ps_speed3/reports/xsim_full.log
+# Journal file: F:/fpga/ps_speed3/build/sim_full\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/speed_full/xsim_script.tcl
+# xsim {speed_full} -autoloadwcfg -runall
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+run -all
+GXTIMING N=1044 cycles=2404110
+[PASS GRAM64 AXIL] N=1044 coefficients=1089936
+[PASS TV32 RESUME AXIL] H=29 W=36 iterations=4
+[PASS HYBRID AXIL] N=1044 cycles=3688824: full-width Gx, four exact TV rounds, AW/W order, stalls, invalid commands
+$finish called at time : 36888240 ns : File "F:/fpga/ps_speed3/sim/tb_hybrid_axil.sv" Line 124
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 01:56:45 2026...

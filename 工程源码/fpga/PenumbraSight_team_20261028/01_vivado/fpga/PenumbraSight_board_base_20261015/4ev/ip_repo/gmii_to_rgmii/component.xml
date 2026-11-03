@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>xilinx.com</spirit:vendor>
+  <spirit:library>user</spirit:library>
+  <spirit:name>gmii2rgmii</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busInterfaces>
+    <spirit:busInterface>
+      <spirit:name>GMII</spirit:name>
+      <spirit:displayName>GMII</spirit:displayName>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="gmii" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="gmii_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RX_CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>gmii_rx_clk</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TXD</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>gmii_txd</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TX_CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>gmii_tx_clk</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TX_EN</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>gmii_tx_en</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RXD</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>gmii_rxd</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RX_DV</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>gmii_rx_dv</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RX_ER</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>gmii_rx_er</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>RGMII</spirit:name>
+      <spirit:displayName>RGMII</spirit:displayName>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="rgmii" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="rgmii_rtl" spirit:version="1.0"/>
+      <spirit:master/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TD</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>rgmii_txd</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RD</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>rgmii_rxd</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TX_CTL</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>rgmii_tx_ctl</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RX_CTL</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>rgmii_rx_ctl</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RXC</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>rgmii_rxc</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TXC</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>rgmii_txc</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+  </spirit:busInterfaces>
+  <spirit:model>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagesynthesis</spirit:name>
+        <spirit:displayName>Synthesis</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:synthesis</spirit:envIdentifier>
+        <spirit:language>Verilog</spirit:language>
+        <spirit:modelName>gmii_to_rgmii</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagesynthesis_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>d91c1c46</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagebehavioralsimulation</spirit:name>
+        <spirit:displayName>Simulation</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:simulation</spirit:envIdentifier>
+        <spirit:language>Verilog</spirit:language>
+        <spirit:modelName>gmii_to_rgmii</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>d91c1c46</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_xpgui</spirit:name>
+        <spirit:displayName>UI Layout</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:xgui.ui</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_xpgui_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>f64a5dae</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+    </spirit:views>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>gmii_rx_clk</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>gmii_rx_dv</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>gmii_rxd</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>gmii_rx_er</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>gmii_tx_clk</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>gmii_tx_en</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>gmii_txd</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>rgmii_rxc</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>rgmii_rx_ctl</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>rgmii_rxd</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>rgmii_txc</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>rgmii_tx_ctl</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>rgmii_txd</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+  </spirit:model>
+  <spirit:fileSets>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>rgmii_rx.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>rgmii_tx.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>gmii_to_rgmii.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_13e2c76b</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>rgmii_rx.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>rgmii_tx.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>gmii_to_rgmii.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_xpgui_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>xgui/gmii2rgmii_v1_0.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_f64a5dae</spirit:userFileType>
+        <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:description>gmii to rgmii</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">rgmii_tx_v1_0</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Production">kintex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintex7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qkintex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qkintex7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">akintex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">artix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">artix7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">aartix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qartix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">zynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qzynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">azynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">spartan7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">aspartan7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtexuplus</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtexuplusHBM</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">zynquplus</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintexu</xilinx:family>
+      </xilinx:supportedFamilies>
+      <xilinx:taxonomies>
+        <xilinx:taxonomy>/UserIP</xilinx:taxonomy>
+      </xilinx:taxonomies>
+      <xilinx:displayName>gmii to rgmii V1.0</xilinx:displayName>
+      <xilinx:definitionSource>package_project</xilinx:definitionSource>
+      <xilinx:coreRevision>2</xilinx:coreRevision>
+      <xilinx:upgrades>
+        <xilinx:canUpgradeFrom>xilinx.com:user:rgmii_tx:1.0</xilinx:canUpgradeFrom>
+      </xilinx:upgrades>
+      <xilinx:coreCreationDateTime>2022-12-30T03:06:42Z</xilinx:coreCreationDateTime>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="nopcore"/>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5afe41c6_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67f8e2c6_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@493e14fa_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53ec4c52_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@244d8f65_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d5a7831_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72a6597_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a7f2e83_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7400a251_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@40479a78_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3f621626_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@266c08a1_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ef9e99d_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a9e1565_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@49d4bd51_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b3e3932_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7941266d_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@706dbe50_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bb62a9_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37a949eb_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c44d44_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e68298f_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a7738e0_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4c8a690e_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46e3b2e8_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@619cd973_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b883162_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a532bed_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53c24bca_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24290e3e_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5fc19467_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d2c19b5_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@545157b5_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b127681_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44e7f515_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16f16c4b_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3903c0f0_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4f2f4203_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d248df1_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@69bc9768_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a9cabc0_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77c2efac_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@43abc857_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@652fc6e4_ARCHIVE_LOCATION">a:/tmp/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@708c54b3_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@20983e7b_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ce45f15_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@139fc4cf_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@163421a3_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77b477af_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@664b9a28_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ed5e26d_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c88f149_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50528fa3_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5516b48b_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78f44f06_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ef5f178_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7404ac2c_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78ca701f_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3500bf94_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64bf0994_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28f73d35_ARCHIVE_LOCATION">e:/workspace/mpsoc/3_Embedded_Linux/vivado_prj/5ev/ip_repo/gmii_to_rgmii</xilinx:tag>
+      </xilinx:tags>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2019.2</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="236d398f"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="942fca56"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="6fcab070"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="ecd0c41d"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

@@ -1,0 +1,28 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe tb_hybrid_axil -s speed_full_queued_queued 
+Multi-threading is on. Using 30 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.fixed_g_matvec_pipe(AW=11)
+Compiling module work.fixed_g_axi_reader_queued_defaul...
+Compiling module work.gram64_ddr_top(AW=11)
+Compiling module work.isqrt_seq(IN_W=128,OUT_W=64)
+Compiling module work.div_seq(NUM_W=96,DEN_W=64)
+Compiling module work.tv_prox32(AW=11)
+Compiling module work.hybrid_fista_accel_default
+Compiling module work.hybrid_fista_board_div2_bd
+Compiling module work.tb_hybrid_axil
+Built simulation snapshot speed_full_queued_queued
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source F:/fpga/ps_speed3/build/sim_full_queued_queued/xsim.dir/speed_full_queued_queued/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  1 02:10:32 2026...

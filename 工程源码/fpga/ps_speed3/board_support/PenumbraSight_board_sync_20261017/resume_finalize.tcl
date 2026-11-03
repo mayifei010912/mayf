@@ -1,0 +1,4 @@
+set work F:/fpga/PenumbraSight_hybrid_FISTA_20261030/board_support/PenumbraSight_board_sync_20261017
+open_project F:/fpga/PenumbraSight_hybrid_FISTA_20261030/board_support/PenumbraSight_board_synth_20261016/project/mpsoc_p4_board_nlos.xpr
+open_run synth_control_sync
+source [file join $work finalize_sync.tcl]

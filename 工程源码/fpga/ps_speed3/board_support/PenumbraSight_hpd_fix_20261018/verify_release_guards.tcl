@@ -1,0 +1,6 @@
+open_checkpoint F:/fpga/PenumbraSight_hybrid_FISTA_20261030/board_support/PenumbraSight_hpd_fix_20261018/hpd_vref_routed.dcp
+source F:/fpga/PenumbraSight_hybrid_FISTA_20261030/board_support/PenumbraSight_hpd_fix_20261018/check_hpd_vref.tcl
+source F:/fpga/PenumbraSight_hybrid_FISTA_20261030/board_support/PenumbraSight_video_bringup_20261018/check_video_aux.tcl
+puts {HPD_AND_VIDEO_RESET_RELEASE_GUARDS_PASS}
+close_design
+exit

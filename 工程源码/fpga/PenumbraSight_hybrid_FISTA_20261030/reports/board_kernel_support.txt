@@ -1,0 +1,21 @@
+
+ALIENTEK-ZU+:~# printf '\nHYBRID_KERNEL_SUPPORT_BEGIN\n'; ls -1 /usr/src/debug; lls /sys/kernel/debug/dri/0 /sys/kernel/debug/dri/1 2>/dev/null; ls /sys/kernel/deebug/cma /dev/uio* /dev/*mem* 2>/dev/null; strings /lib/modules/5.4.0/extra/dmap roxy/dmaproxy.ko | grep -E 'copy.*user|\.c|vermagic'; find /usr/src/debug -iname  '*dmaproxy*' -o -iname '*dma-proxy*'; printf '\nHYBRID_KERNEL_SUPPORT_END\n'
+
+HYBRID_KERNEL_SUPPORT_BEGIN
+[1;34mopencv[m
+/sys/kernel/debug/dri/0:
+[1;34mDP-1[m              [1;34mcrtc-0[m            [0;0mgem_names[m         [0;0mname[m
+[0;0mclients[m           [0;0mframebuffer[m       [0;0minternal_clients[m  [0;0mstate[m
+
+/sys/kernel/debug/dri/1:
+[1;34mHDMI-A-1[m          [1;34mcrtc-0[m            [0;0mgem_names[m         [0;0mname[m
+[0;0mclients[m           [0;0mframebuffer[m       [0;0minternal_clients[m  [0;0mstate[m
+[1;35m/dev/mem[m   [1;35m/dev/uio0[m  [1;35m/dev/uio1[m  [1;35m/dev/uio2[m  [1;35m/dev/uio3[m
+3copy from user failed for DMAPROXY_COPY
+author=Jeegar Patel <jeegar.patel@xilinx.com>
+vermagic=5.4.0 SMP mod_unload aarch64
+__UNIQUE_ID_vermagic10
+__arch_copy_from_user
+
+HYBRID_KERNEL_SUPPORT_END
+ALIENTEK-ZU+:~# 

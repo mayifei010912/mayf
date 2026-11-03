@@ -1,0 +1,5 @@
+{
+  "bias_q32_rgb.bin": "08602514a2e7b1b9e532694caab27031e69152fc908273b595fa00251a2d39fe",
+  "G_q32_rowmajor.bin": "b70971f7c22c41c7ebf4521845bf8ec20d7c4c011c5da7f60aeab9b94f4ab487",
+  "initial_x_q20_rgb.bin": "98bd04d74f8a5712ddc48346b7537c101de25522b7f25e47baad865d28486e67"
+}

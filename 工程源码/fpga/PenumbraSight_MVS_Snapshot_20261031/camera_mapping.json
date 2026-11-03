@@ -1,0 +1,32 @@
+{
+  "version": "camera_corners_20261101_153348",
+  "units": "cm",
+  "corner_order": [
+    "UL",
+    "LL",
+    "UR",
+    "LR"
+  ],
+  "raw_width": 5472,
+  "raw_height": 3648,
+  "wall_corners_xz_cm": [
+    [
+      1,
+      44
+    ],
+    [
+      1.5,
+      9.5
+    ],
+    [
+      51,
+      34.5
+    ],
+    [
+      50.5,
+      16
+    ]
+  ],
+  "independently_validated": false,
+  "scope": "User measured full RAW frame corners; only camera mapping changes. Fixed wall sampling grid, A, G, scene geometry and FPGA bit remain unchanged."
+}

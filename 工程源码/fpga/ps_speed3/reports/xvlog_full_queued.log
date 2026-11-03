@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/div_seq.v" into library work
+INFO: [VRFC 10-311] analyzing module div_seq
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/fixed_a_axi_reader.v" into library work
+INFO: [VRFC 10-311] analyzing module fixed_a_axi_reader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/fixed_a_matvec.v" into library work
+INFO: [VRFC 10-311] analyzing module fixed_a_matvec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/fixed_g_axi_reader_queued.v" into library work
+INFO: [VRFC 10-311] analyzing module fixed_g_axi_reader_queued
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/fixed_g_axi_reader64.v" into library work
+INFO: [VRFC 10-311] analyzing module fixed_g_axi_reader64
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/fixed_g_matvec_pipe.v" into library work
+INFO: [VRFC 10-311] analyzing module fixed_g_matvec_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/gram64_ddr_top.v" into library work
+INFO: [VRFC 10-311] analyzing module gram64_ddr_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/hybrid_clock_div2.v" into library work
+INFO: [VRFC 10-311] analyzing module hybrid_clock_div2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/hybrid_fista_accel.v" into library work
+INFO: [VRFC 10-311] analyzing module hybrid_fista_accel
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/hybrid_fista_board_bd.v" into library work
+INFO: [VRFC 10-311] analyzing module hybrid_fista_board_bd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/hybrid_fista_board_div2_bd.v" into library work
+INFO: [VRFC 10-311] analyzing module hybrid_fista_board_div2_bd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/isqrt_seq.v" into library work
+INFO: [VRFC 10-311] analyzing module isqrt_seq
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/rtl/tv_prox32.v" into library work
+INFO: [VRFC 10-311] analyzing module tv_prox32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/fpga/ps_speed3/sim/tb_hybrid_queued.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_hybrid_axil
+ERROR: [VRFC 10-3380] identifier 'qcount' is used before its declaration [F:/fpga/ps_speed3/sim/tb_hybrid_queued.sv:21]
+ERROR: [VRFC 10-2865] module 'tb_hybrid_axil' ignored due to previous errors [F:/fpga/ps_speed3/sim/tb_hybrid_queued.sv:2]

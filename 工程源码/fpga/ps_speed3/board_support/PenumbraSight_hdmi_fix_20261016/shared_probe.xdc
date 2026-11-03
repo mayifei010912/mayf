@@ -1,0 +1,10 @@
+create_clock -name probe_ref100 -period 10.000 [get_ports clk_p]
+set_property PACKAGE_PIN AE5 [get_ports clk_p]
+set_property IOSTANDARD DIFF_SSTL12 [get_ports {clk_p clk_n}]
+set_property PACKAGE_PIN E1 [get_ports TMDS_tmds_clk_p]
+set_property PACKAGE_PIN G1 [get_ports {TMDS_tmds_data_p[0]}]
+set_property PACKAGE_PIN F2 [get_ports {TMDS_tmds_data_p[1]}]
+set_property PACKAGE_PIN G3 [get_ports {TMDS_tmds_data_p[2]}]
+set_property IOSTANDARD LVDS [get_ports {TMDS_tmds_clk_p TMDS_tmds_clk_n TMDS_tmds_data_p[*] TMDS_tmds_data_n[*]}]
+# Internal timing only; actual external TMDS sink still requires board testing.
+set_property CLOCK_DELAY_GROUP hdmi_parallel_pair [get_nets -of_objects [get_pins {hdmi_pair/fast_buffer/O hdmi_pair/slow_buffer/O hdmi_pair/pixel_buffer/O}]]

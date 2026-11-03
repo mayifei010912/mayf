@@ -1,0 +1,152 @@
+{
+  "source": "https://github.com/Computational-Periscopy/Ordinary-Camera",
+  "commit": "6b088a3abff8a5854bbd1419e8f05727f487a94e",
+  "retrieved_date_Asia_Shanghai": "2026-10-12",
+  "scope": "All repository MATLAB source files and upstream README; experimental Data directory is not included.",
+  "files": [
+    {
+      "path": "Functions/SimulateA_OccluderEstimation.m",
+      "bytes": 3228,
+      "git_blob_sha1": "b3b9706663ca97067c32a8eb8bb9149181b076e5",
+      "sha256": "8fe0d18dd4d05ae4d6e83ba4e1a902451df2ac6861a695d3a9396d0cd0013b92"
+    },
+    {
+      "path": "Functions/SimulateForwardModelPerBlock.m",
+      "bytes": 8460,
+      "git_blob_sha1": "4ba1001b6c9b45ac3c868570fc10b4d327ee863b",
+      "sha256": "e78caf366624e62a4b85e98b55382e2314adaa2d1da854e46805b4fccfafe9e5"
+    },
+    {
+      "path": "Functions/load_experiment_config_data_localization.m",
+      "bytes": 2553,
+      "git_blob_sha1": "adeac221d84de3e80e668a85ec320c025d14ff98",
+      "sha256": "52fe390c45ee5622e7462f4bb3ee6a0845ce5a86331f23fc119942927ceede2e"
+    },
+    {
+      "path": "Functions/load_experiment_config_data_reconstruction.m",
+      "bytes": 9680,
+      "git_blob_sha1": "6d4531580df6046470adac7a3b64b7413498d953",
+      "sha256": "41275294f9c48b29b2edfc64e8c38eef7fd6dcdb14aa9e671f2a79087be042b1"
+    },
+    {
+      "path": "Functions/load_image1.m",
+      "bytes": 1572,
+      "git_blob_sha1": "53973633e9fd07b92681afd657fe77084169390f",
+      "sha256": "53d27204bee5f3b5065ab58337b4c03edd5a145bce4ae812e830cb40aaf5a1bd"
+    },
+    {
+      "path": "Functions/occluderposgridsearch.m",
+      "bytes": 5673,
+      "git_blob_sha1": "cdbdac6593baa81c7f092bf9bc13728109415669",
+      "sha256": "2b6eb32bfc8ae870ffa74c130043bc2ad5aec60d8dc4ab4fd3f809082a004a23"
+    },
+    {
+      "path": "Functions/pad_translate.m",
+      "bytes": 152,
+      "git_blob_sha1": "70552eb59583d458850a88699a7a15d419d985b6",
+      "sha256": "5a21aee66925a05d0176defabf5a893ee0d069d0396d2ed84c8a6cb04d82b8db"
+    },
+    {
+      "path": "Functions/ray_plane_intersect_y.m",
+      "bytes": 746,
+      "git_blob_sha1": "fd8313b1e58f15ba826bba2bbec9151641dc4c1f",
+      "sha256": "74484a13fba534491bd11272fb54a4f75da6d4dc74d18f567fa80c7211e1ad3e"
+    },
+    {
+      "path": "Functions/reconstruct_tv.m",
+      "bytes": 5388,
+      "git_blob_sha1": "617022e40f6e48175d221d607f63f161138b1eff",
+      "sha256": "2b6d12eecceea7c7552ac0a5df5001f95cf2d3712f1a105ae4676d5eacaacf75"
+    },
+    {
+      "path": "Functions/reconstruct_tv_it_cbg.m",
+      "bytes": 10235,
+      "git_blob_sha1": "88e2b2c48fb6725cd03dd1014c269d5e91b5b722",
+      "sha256": "3b337b6566e5030a59b40ce10673d1bbd52e8af0327a6c2db63e5ce7111bf019"
+    },
+    {
+      "path": "Functions/simulate_A.m",
+      "bytes": 2395,
+      "git_blob_sha1": "f3d26aed7ce3cc704ae5f4092550e08ae6851e24",
+      "sha256": "ebb79b154044b72a93036af8c8b102f7093e13eca08c24ccf3e6595d6f612de6"
+    },
+    {
+      "path": "Functions/simulate_block.m",
+      "bytes": 1760,
+      "git_blob_sha1": "8077bb65000f022026345046cf9282872f86e603",
+      "sha256": "4b3ce8d0ab5505ad2f24063755ac98d634fcc5e626675eb3ba2bd2ee0ff804d2"
+    },
+    {
+      "path": "Functions/simulate_occluder.m",
+      "bytes": 989,
+      "git_blob_sha1": "6ce41b0fc48871037897b62dd0cca6d783b4661c",
+      "sha256": "127b46a84e8eb540f20628b30c6842d9c2978a5ec6154f4fbb4612fe03608d2f"
+    },
+    {
+      "path": "Functions/stack_combine.m",
+      "bytes": 1217,
+      "git_blob_sha1": "5fb6ec19159076bc93cacc9d89c71594eba5fd38",
+      "sha256": "5ec3a0bb933591505be468b3b857b84c814a1eef038c9ce54edd3d6149f54f0a"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 885,
+      "git_blob_sha1": "5258ba212301a92c23000dc47fa3110e0cd720e0",
+      "sha256": "bc12186700506272aad13fccf5223a1063f8ffb0057aa27321f50692157fdf8d"
+    },
+    {
+      "path": "fig4_column_c.m",
+      "bytes": 6507,
+      "git_blob_sha1": "e2c59afb0dd800e21253e974ed63b3dd91278af9",
+      "sha256": "53dd034b8365b72cea4cbaca83ae4057b67b4334fe3f073580f03484343d6ed3"
+    },
+    {
+      "path": "fig4_column_d.m",
+      "bytes": 8008,
+      "git_blob_sha1": "d295f317535e31e8b973232626bd3dcbb756d914",
+      "sha256": "8757927f932aea6d12ca4d2f4732563f50f5d065999e47152e6dc8520ef0c475"
+    },
+    {
+      "path": "fig4_column_e.m",
+      "bytes": 9118,
+      "git_blob_sha1": "07cc11330b27e1e650e3023248db037913568641",
+      "sha256": "3f491b310ddeaf13cadcc442ab35b19fca33630e7d9a09ff82f15ff9f53de8f9"
+    },
+    {
+      "path": "fig_S14.m",
+      "bytes": 7452,
+      "git_blob_sha1": "cb507b8a3a8b303a1259c18fcb6c87d1f6041902",
+      "sha256": "f9de9535030ff623875804f9faa44b02e78d192cdbe359ab90bc7a1bb46a6b96"
+    },
+    {
+      "path": "fig_S15.m",
+      "bytes": 7153,
+      "git_blob_sha1": "c6597855f398f6ab85367c707732803d47bee382",
+      "sha256": "42abe991e0d4976d8024653ef2510abed81462ee5a051fea9fdf6a4b916a05e5"
+    },
+    {
+      "path": "fig_S16.m",
+      "bytes": 6293,
+      "git_blob_sha1": "c19abc6b0047d1805e95cf9eea6e7be9d41ae44c",
+      "sha256": "123812961d8962f0c5782c89d32e9227474ca09f7c08058f08ba5784624ec4a9"
+    },
+    {
+      "path": "fig_S1_S2.m",
+      "bytes": 7149,
+      "git_blob_sha1": "1586325b05cdd3bb7f6e2968f9a0f2f6a993c3a6",
+      "sha256": "8ba3a67d8a3930a00857a21c3db1fbf82be2ba42908bcaec677c8a9ed501fed3"
+    },
+    {
+      "path": "fig_S9.m",
+      "bytes": 8781,
+      "git_blob_sha1": "0352b72a72e96884124d1f5df14d9b7cfd2e6b89",
+      "sha256": "8d7ee897772fa6c9755519dc6f4b6e355b2dd2664a0aec77c095b6778ad586aa"
+    },
+    {
+      "path": "table_S1.m",
+      "bytes": 5096,
+      "git_blob_sha1": "08f0c7765df7bea7395405784ed771e03ec457c7",
+      "sha256": "abf822d1bb026df757291d52b8dc64619169b2b1864fb8dce81afcf373236bf2"
+    }
+  ]
+}

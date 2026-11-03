@@ -1,0 +1,46 @@
+{
+  "scope": "physical queued-reader speed3 hardware; baseline speed2; same latest real RAW, fixed A/G, ARM solver, arithmetic and 1100 cap",
+  "phase": "DONE",
+  "boot_id": "6325e789-89ae-4d90-a8e3-79e04f80df21",
+  "baseline_job": "20261031_174640_f5d3102a",
+  "candidate_bit_sha256": "2473c7d7d7d82d443a3cc5d879bd0518542f63466542ada63c8e15cca7aaeb4d",
+  "iteration_cap": 1100,
+  "channels": [
+    {
+      "channel": 0,
+      "seconds": 226.89495983300003,
+      "iterations": 1100,
+      "converged": false,
+      "all_1044_samples_exact": true,
+      "full_trace_equal": true,
+      "max_abs_difference": 0.0,
+      "baseline_seconds": 428.26059471400004
+    },
+    {
+      "channel": 1,
+      "seconds": 229.178493452,
+      "iterations": 1100,
+      "converged": false,
+      "all_1044_samples_exact": true,
+      "full_trace_equal": true,
+      "max_abs_difference": 0.0,
+      "baseline_seconds": 430.4143637850002
+    },
+    {
+      "channel": 2,
+      "seconds": 226.22779563100005,
+      "iterations": 1100,
+      "converged": false,
+      "all_1044_samples_exact": true,
+      "full_trace_equal": true,
+      "max_abs_difference": 0.0,
+      "baseline_seconds": 427.6641411890005
+    }
+  ],
+  "channel": 2,
+  "seconds": 682.814892334,
+  "baseline_seconds": 1286.9104674709997,
+  "original_29min_seconds": 1742.2141282679986,
+  "all_3132_samples_exact": true,
+  "speedup": 1.8847135320556327
+}

@@ -1,0 +1,39 @@
+{
+  "board_config": "../../reports/board_kernel.config",
+  "source_candidates": [
+    {
+      "archive": "alientek-linux-v5.4-2020.2.tar.gz",
+      "sha256": "e729e8deb46bac9cca117f7011cf1452352acc1f6056064071f8770db5313624",
+      "kernel_release": "5.4.0",
+      "has_generated_headers": false,
+      "has_Module_symvers": false,
+      "defconfig_explicit_differences_to_board": []
+    },
+    {
+      "archive": "atk-zup-linux-xlnx.tar.gz",
+      "sha256": "5e84f1b07def9782b6641b2db08ac9d40f58a8cc4f75677f6769e7ce7d4bf420",
+      "kernel_release": "5.4.0",
+      "has_generated_headers": false,
+      "has_Module_symvers": false,
+      "defconfig_explicit_differences_to_board": [
+        {
+          "option": "CONFIG_R8188EU",
+          "source_defconfig": "y",
+          "board": "m"
+        },
+        {
+          "option": "CONFIG_VIDEO_OV5645",
+          "source_defconfig": "y",
+          "board": "not enabled"
+        }
+      ]
+    }
+  ],
+  "compatibility_confirmed": "External buffer module loaded and tested; full kernel source identity not claimed",
+  "driver_compiled": true,
+  "note": "Use running-board configuration. Two image-sensor options are absent in this source but not used by the external buffer-only module. Native MMIO and physical Gx/TV have been separately validated.",
+  "selected_source": "atk-zup-linux-xlnx.tar.gz",
+  "module_loaded_with_normal_insmod": true,
+  "buffer_readback_tested": true,
+  "full_source_identity_proven": false
+}

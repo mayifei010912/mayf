@@ -1,0 +1,6 @@
+set_param general.maxThreads 2
+open_checkpoint F:/fpga/PenumbraSight_hybrid_FISTA_20261030/board_support/PenumbraSight_interface_closure_20261017/vendor_mmcm_guard_routed.dcp
+set audit_rates {100 10}
+set audit_append 1
+source F:/fpga/PenumbraSight_hybrid_FISTA_20261030/board_support/PenumbraSight_interface_closure_20261017/audit_vendor_rates.tcl
+close_design
